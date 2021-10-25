@@ -1,0 +1,47 @@
+You: Man, life sucks.
+You: My favorite arcade game broke, now I have no way to get the tickets I need for that life-sized shark plushie. With the arcade shutting down next week, too, I'll never be able to!
+You: I mean, I guess I could play Skee-Ball instead, but it doesn't even have flippers so what's the point?
+>Satan
+Satan: Hey, you there, gullible-looking child!
+{
+You: Me?
+}
+Satan: Yeah you, you seem pretty easy to coerce.
+{
+You: That's true, I'd do just about anything for some tickets right now.
+}
+Satan: I happen to have some to spare, but I can't just give them to you.
+Satan: I propose that we strike a little deal. We'll play a game. If you win, I will give you as many tickets as your heart desires. I'll even let you choose the game.
+{
+You: And what if I lose?
+}
+Satan: I get your soul.
+{
+You: Oh okay.
+}
+Satan: So... whaddaya say?
+{
+You: Deal.
+}
+Satan: Wonderful. What'll it be? Some game of skill? Poker? Chess? Blackjack?
+{
+You: Pinball.
+}
+Satan: Then it is- wait, pinball? That's not even a multiplayer game, dude.
+{
+You: Sucks to suck I guess.
+}
+Satan: Whatever.
+Satan: Go ahead, try to beat my high score. I think you'll find the machine is a bit different than what you're used to.
+<
+.0.5
+!Fakeout
+>Satan
+Satan: Wait, wait, one more thing. Pick a ball.
+<
+!Balls
+>Satan
+Satan: Great. For real this time.
+<
+.0.5
+@AttemptOne

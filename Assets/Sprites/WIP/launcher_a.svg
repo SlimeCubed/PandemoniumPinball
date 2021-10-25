@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="166.43956mm"
+   height="226.12207mm"
+   viewBox="0 0 166.43955 226.12207"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="launcher_a.svg"
+   inkscape:export-filename="C:\Users\Zachary M\Documents\Portable Programs\PandemoniumPinball\Assets\Sprites\Launcher A.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="437.08347"
+     inkscape:cy="645.4844"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:object-paths="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(14.515855,25.087857)">
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 134.99035,-8.1545072 2.48368,17.4002069 c 0,0 -4.14462,7.9441183 -3.49209,12.0867423 0.59646,3.786729 6.43382,9.532141 6.43382,9.532141 l 1.32531,9.008578 -12.90117,82.289399 -5.25115,10.50576 c 0,0 -11.5047,6.30217 -14.31894,11.81268 -2.85314,5.58669 -1.19108,18.78151 -1.19108,18.78151 L 97.273412,184.10087 4.0674983,109.48251 7.9633344,79.581938 95.825387,10.096273 Z"
+       id="path901"
+       sodipodi:nodetypes="ccaccccacccccc" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#d40000;fill-opacity:1;stroke:#d40000;stroke-width:18.1846;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="M 141.74107,39.873161 C 110.74702,55.129754 55.5625,82.591618 55.5625,97.412304 c 0,12.641186 43.549035,25.036196 65.38988,26.154156 11.65691,0.59668 14.74107,-8.71805 14.74107,-8.71805 2.01587,-24.991743 4.03175,-49.983498 6.04762,-74.975249 z"
+       id="path870"
+       sodipodi:nodetypes="csscc" />
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#d40000;stroke-width:33.8667;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="M 134.99035,-8.1545071 C 70.119373,19.167363 2.7970172,61.045862 2.4190415,98.969386 2.0410658,136.89291 69.195731,160.08955 79.023111,164.44858 c 9.82738,4.35903 23.163989,11.37015 18.250301,19.65229"
+       id="path847-0-1"
+       sodipodi:nodetypes="cssc"
+       inkscape:export-filename="C:\Users\Zachary M\Documents\Portable Programs\PandemoniumPinball\Assets\Sprites\path847-0-1.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>

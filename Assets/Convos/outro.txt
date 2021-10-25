@@ -1,0 +1,23 @@
+>Satan
+Satan: Alright, you win. You bested me.
+{
+You: Pog
+}
+Satan: It's unreal how much I hate you.
+Satan: Anyway, it seems that I must uphold my end of the bargain. I am honorbound to provide as many tickets as you desire.
+{
+You: Give me ten thousand tickets!
+.0.1
+!Get 10,000 Tickets
+.0.5
+}
+Satan: Alright, I'm off. Perhaps your family will be easier to extort.
+{
+You: Yeah yeah whatever, I have an unreasonably large shark to buy.
+<
+.0.25
+You: Finally, after all this time, I have enough tickets.
+!Get Enormous Shark Plushie
+You: I can die happy now.
+.1
+@EndScreen
