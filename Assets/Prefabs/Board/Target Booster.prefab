@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6504380841256670563}
   - component: {fileID: 6504380841256670562}
   - component: {fileID: 6504380841256670574}
+  - component: {fileID: 5757717504339140603}
   m_Layer: 6
   m_Name: Target Booster
   m_TagString: Untagged
@@ -126,3 +127,18 @@ MonoBehaviour:
   force: 15
   damping: 0.75
   onSprite: {fileID: 21300000, guid: 469346898c2546f4da31883c103ae034, type: 3}
+--- !u!114 &5757717504339140603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6504380841256670575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc38726f54e64445b8cf2daedcd1b16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volume: 0.2
+  clips:
+  - {fileID: 8300000, guid: a09b4776258da2e4bb9c37b71c344322, type: 3}

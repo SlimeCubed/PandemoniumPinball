@@ -2,10 +2,8 @@
 >Shark
 .2
 Shark: Hey, it's me, the shark plushie of inordinate size.
-Shark: This game was made for the 2021 Ludwig Jam in 10 days. Here are some of the assets it uses:
-Shark: Fonts: Pixel Operator by Jayvee Enaguas, Squad Goals by Fontsera, Day Roman by Apostrophic Labs.
-Shark: Images: BLÅHAJ by IKEA, plus various from FreeStockTextures.com.
-Shark: All of the other assets were made by the game's developer.
+Shark: Your final score was {score}. If you want a challenge, try scoring as low as possible. It's harder than it sounds!
+Shark: This game was made for the 2021 Ludwig Jam in 10 days by one person. He used some free assets from other people though, those should be in the description.
 Shark: Thanks for playing, I hope you had fun!
 .10
 Shark: Don't mind me, I'm just chilling.

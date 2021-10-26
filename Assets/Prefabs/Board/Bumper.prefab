@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2359872623371367175}
   - component: {fileID: 2359872623371367168}
   - component: {fileID: 2359872623371367170}
+  - component: {fileID: 1473503859}
   m_Layer: 0
   m_Name: Bumper
   m_TagString: Untagged
@@ -46,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 15
+  score: 5
 --- !u!58 &2359872623371367170
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -62,6 +64,24 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.75
+--- !u!114 &1473503859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2359872623371367174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc38726f54e64445b8cf2daedcd1b16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volume: 0.35
+  clips:
+  - {fileID: 8300000, guid: d48e104e14689e74d9847b8a0fe45c7f, type: 3}
+  - {fileID: 8300000, guid: 3be4be748904c2947b1d2bdc5dd3dc03, type: 3}
+  - {fileID: 8300000, guid: a95d1ec30c0f20f44a6df0e0304ebaf1, type: 3}
+  - {fileID: 8300000, guid: bfea0eca90378734ca7f592e4f9f0005, type: 3}
 --- !u!1 &7905421324851618826
 GameObject:
   m_ObjectHideFlags: 0

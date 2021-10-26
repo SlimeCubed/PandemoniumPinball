@@ -9,12 +9,14 @@ public class DialogueController : MonoBehaviour
 {
     public string startConvo;
     public float initialDelay = 1f;
+    public CanvasGroup nextHint;
     public List<DialogueBox> speakerList = new List<DialogueBox>();
 
     [SerializeField]
     private List<ConvoDesc> convoList = new List<ConvoDesc>();
     private RectTransform talkSprite;
     private Coroutine talkSpriteAnim;
+    private DialogueBox currentSpeaker;
 
     private void Start()
     {
@@ -93,8 +95,10 @@ public class DialogueController : MonoBehaviour
                         continue;
                     }
 
+                    currentSpeaker = speaker;
                     speaker.NewMessage(text);
                     yield return new WaitForDelegate(() => !speaker.Open);
+                    currentSpeaker = null;
                     break;
             }
         }
@@ -242,6 +246,17 @@ public class DialogueController : MonoBehaviour
     {
         speaker = speakerList.FirstOrDefault(s => string.Equals(name, s.name, StringComparison.OrdinalIgnoreCase));
         return speaker != null;
+    }
+
+    private float idleTime;
+    void Update()
+    {
+        if (currentSpeaker != null && !currentSpeaker.Talking)
+            idleTime += Time.deltaTime;
+        else
+            idleTime = 0f;
+
+        nextHint.alpha = Mathf.InverseLerp(2f, 2.5f, idleTime) * (0.6f + 0.2f * Mathf.Sin(idleTime * Mathf.PI * 1.5f));
     }
 
     private class WaitForDelegate : CustomYieldInstruction

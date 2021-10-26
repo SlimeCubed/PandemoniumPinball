@@ -20,6 +20,7 @@ public class Bumper : MonoBehaviour
         rb.AddForce(dir * force, ForceMode2D.Impulse);
 
         GameController.GiveScore(score);
+        SendMessage("TriggerSound");
 
         spriteBump = 1f;
     }

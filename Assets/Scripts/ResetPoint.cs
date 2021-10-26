@@ -5,6 +5,7 @@ using UnityEngine;
 public class ResetPoint : MonoBehaviour
 {
     public float delay = 1f;
+    public float soundDelay = 1f;
     public Transform spawnAt;
     public int scoreThreshold;
     public string highScoreScene;
@@ -15,6 +16,12 @@ public class ResetPoint : MonoBehaviour
         if (reset != null) return;
 
         reset = StartCoroutine(ResetCoroutine(collision.attachedRigidbody));
+        Invoke("TriggerSoundDelayed", soundDelay);
+    }
+
+    public void TriggerSoundDelayed()
+    {
+        SendMessage("TriggerSound");
     }
 
     IEnumerator ResetCoroutine(Rigidbody2D rb)

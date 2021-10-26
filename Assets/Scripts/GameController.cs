@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
 {
     public float tiltDegrees;
     public float tiltTime;
+
     public static int score;
     public static Vector2 camOffset;
     private static Vector2 camOffsetTarget;

@@ -26,6 +26,7 @@ public class Target : MonoBehaviour, ICircuitElement
 
         spriteOffset = 1f;
         GameController.GiveScore(score);
+        SendMessage("TriggerSound");
 
         DeactivateAt = Time.fixedTime + activeTime;
     }

@@ -10,6 +10,8 @@ public class Chassis : MonoBehaviour
     public Transform[] wings = new Transform[0];
     public Transform bodies;
     public float moveSpeed = 1f;
+    public AudioClip flippersUp;
+    public AudioClip flippersDown;
 
     private float wingSpeed = 1f;
     private float wingAnim;
@@ -42,12 +44,23 @@ public class Chassis : MonoBehaviour
         instance?.path.AddLast(ratchetPoint);
     }
 
+    private AudioSource source;
     public void Update()
     {
         wingAnim += wingSpeed * Time.deltaTime;
         foreach(var wing in wings)
         {
             wing.localEulerAngles = new Vector3(0f, 0f, Mathf.Sin(wingAnim * Mathf.PI * 1.75f) * 30f);
+        }
+
+        source ??= GetComponent<AudioSource>();
+        if (Input.GetButtonDown("Flippers"))
+        {
+            source.PlayOneShot(flippersUp);
+        }
+        else if (Input.GetButtonUp("Flippers"))
+        {
+            source.PlayOneShot(flippersDown);
         }
     }
 

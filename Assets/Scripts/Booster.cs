@@ -18,7 +18,7 @@ public class Booster : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision)
     {
         var rb = collision.attachedRigidbody;
-        if (rb == null) return;
+        if (rb == null || rb.bodyType != RigidbodyType2D.Dynamic) return;
 
         if (Vector2.Dot(rb.velocity, transform.up) > -turnaroundSpeedThreshold)
         {
@@ -29,6 +29,7 @@ public class Booster : MonoBehaviour
 
             CancelInvoke("DisableSprite");
             Invoke("DisableSprite", 0.5f);
+            SendMessage("TriggerSound");
         }
     }
 

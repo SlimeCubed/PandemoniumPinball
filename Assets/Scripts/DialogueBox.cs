@@ -66,7 +66,7 @@ public class DialogueBox : MonoBehaviour
 
     public void NewMessage(string message)
     {
-        text.text = message;
+        text.text = message.Replace("{score}", GameController.score.ToString());
         
         nextCharTimer = 0f;
         text.maxVisibleCharacters = 0;

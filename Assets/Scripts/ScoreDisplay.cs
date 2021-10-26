@@ -27,6 +27,9 @@ public class ScoreDisplay : MonoBehaviour
     {
         if(lastScore != GameController.score)
         {
+            if (lastScore <= highScoreThreshold && GameController.score > highScoreThreshold)
+                SendMessage("TriggerSound");
+
             lastScore = GameController.score;
             addDelay = 0.75f;
         }

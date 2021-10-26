@@ -7,11 +7,12 @@ using UnityEngine.SceneManagement;
 public class TransitionController : MonoBehaviour
 {
     private static TransitionController instance;
+    public static bool InAnimation => instance?.inAnim ?? false;
     public string initScene;
     public RectTransform wipe;
     public float wipeHeight;
 
-    public static void WipeScene(string scene) => instance.WipeSceneImpl(scene);
+    public static void WipeScene(string scene) => instance?.WipeSceneImpl(scene);
 
     private void Awake()
     {
@@ -35,6 +36,7 @@ public class TransitionController : MonoBehaviour
 
     private IEnumerator WipeSceneCoroutine(string scene)
     {
+        SendMessage("TriggerSound");
         float anim = 0f;
         wipe.gameObject.SetActive(true);
         while(anim < 1f)
@@ -56,10 +58,11 @@ public class TransitionController : MonoBehaviour
         inAnim = false;
     }
 
-    public static IEnumerator FakeWipe() => instance.FakeWipeImpl();
+    public static IEnumerator FakeWipe() => instance?.FakeWipeImpl();
 
     public IEnumerator FakeWipeImpl()
     {
+        SendMessage("TriggerSound");
         float fakeoutDepth = 0.7f;
         float anim = 0f;
         wipe.gameObject.SetActive(true);

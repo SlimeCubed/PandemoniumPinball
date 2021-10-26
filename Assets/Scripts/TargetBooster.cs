@@ -32,6 +32,7 @@ public class TargetBooster : MonoBehaviour
 
             CancelInvoke("DisableSprite");
             Invoke("DisableSprite", 0.5f);
+            SendMessage("TriggerSound");
         }
     }
 

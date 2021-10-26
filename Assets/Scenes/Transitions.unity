@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 216002273}
   - component: {fileID: 216002272}
   - component: {fileID: 216002276}
+  - component: {fileID: 216002277}
   m_Layer: 5
   m_Name: Transitions
   m_TagString: Untagged
@@ -239,6 +240,21 @@ MonoBehaviour:
   initScene: Intro
   wipe: {fileID: 2046200473}
   wipeHeight: 2000
+--- !u!114 &216002277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216002271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc38726f54e64445b8cf2daedcd1b16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volume: 0.35
+  clips:
+  - {fileID: 8300000, guid: c3f80e4cde4e2d74b99eab425c56e61c, type: 3}
 --- !u!1 &2046200472
 GameObject:
   m_ObjectHideFlags: 0
